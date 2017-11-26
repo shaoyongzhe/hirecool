@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	../hirecool/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../hirecool/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:91
+Account	../star/models.py	/^class Account(models.Model):$/;"	kind:class	line:7
+AppConfig	../star/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:4
+BASE_DIR	../hirecool/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../hirecool/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DEBUG	../hirecool/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+HttpResponse	../star/views.py	/^from django.http import HttpResponse$/;"	kind:namespace	line:5
+INSTALLED_APPS	../hirecool/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../hirecool/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:110
+MIDDLEWARE	../hirecool/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
+ROOT_URLCONF	../hirecool/settings.py	/^ROOT_URLCONF = 'hirecool.urls'$/;"	kind:variable	line:52
+SECRET_KEY	../hirecool/settings.py	/^SECRET_KEY = '(d)^!*rxd+6zauj@$6kxq(#17s(sojaytkv)moi1^pr$ht5k@+'$/;"	kind:variable	line:23
+STATIC_URL	../hirecool/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:124
+StarConfig	../star/apps.py	/^class StarConfig(AppConfig):$/;"	kind:class	line:7
+TEMPLATES	../hirecool/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
+TIME_ZONE	../hirecool/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:112
+TestCase	../star/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:4
+USE_I18N	../hirecool/settings.py	/^USE_I18N = True$/;"	kind:variable	line:114
+USE_L10N	../hirecool/settings.py	/^USE_L10N = True$/;"	kind:variable	line:116
+USE_TZ	../hirecool/settings.py	/^USE_TZ = True$/;"	kind:variable	line:118
+WSGI_APPLICATION	../hirecool/settings.py	/^WSGI_APPLICATION = 'hirecool.wsgi.application'$/;"	kind:variable	line:70
+__init__.py	../hirecool/__init__.py	1;"	kind:file	line:1
+__init__.py	../star/__init__.py	1;"	kind:file	line:1
+__init__.py	../star/migrations/__init__.py	1;"	kind:file	line:1
+account_id	../star/models.py	/^    account_id = models.CharField(max_length=64, mix_length=64)$/;"	kind:variable	line:8
+account_type	../star/models.py	/^    account_type = models.CharField(max_length=30)$/;"	kind:variable	line:11
+admin	../hirecool/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin	../star/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:4
+admin.py	../star/admin.py	1;"	kind:file	line:1
+application	../hirecool/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../star/apps.py	1;"	kind:file	line:1
+django	../manage.py	/^            import django$/;"	kind:namespace	line:14
+email	../star/models.py	/^    email = models.CharField(max_length=60)$/;"	kind:variable	line:10
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+get_wsgi_application	../hirecool/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+include	../hirecool/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:16
+index	../star/views.py	/^def index(request):$/;"	kind:function	line:7
+manage.py	../manage.py	1;"	kind:file	line:1
+models	../star/models.py	/^from django.db import models$/;"	kind:namespace	line:4
+models.py	../star/models.py	1;"	kind:file	line:1
+name	../star/apps.py	/^    name = 'star'$/;"	kind:variable	line:8
+os	../hirecool/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../hirecool/wsgi.py	/^import os$/;"	kind:namespace	line:10
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+phonenumber	../star/models.py	/^    phonenumber = models.CharField(max_length=11, min_length = 11)$/;"	kind:variable	line:9
+render	../star/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:4
+settings.py	../hirecool/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../star/tests.py	1;"	kind:file	line:1
+unicode_literals	../star/admin.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+unicode_literals	../star/apps.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+unicode_literals	../star/models.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+unicode_literals	../star/tests.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+unicode_literals	../star/views.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+url	../hirecool/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:16
+url	../star/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+urlpatterns	../hirecool/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../star/urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
+urls.py	../hirecool/urls.py	1;"	kind:file	line:1
+urls.py	../star/urls.py	1;"	kind:file	line:1
+views	../star/urls.py	/^from . import views$/;"	kind:namespace	line:3
+views.py	../star/views.py	1;"	kind:file	line:1
+wsgi.py	../hirecool/wsgi.py	1;"	kind:file	line:1
