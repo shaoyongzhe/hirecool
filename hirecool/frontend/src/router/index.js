@@ -1,16 +1,15 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 
-// customer define
-import Login from '../components/login.vue'
-import UserInfo from '../components/UserInfo.vue'
+Vue.use(Router)
 
-Vue.use(VueRouter)
-
-const router = new VueRouter({
+export default new Router({
   routes: [
-    { path: '/login', omponent: Login },
-    { path: '/user_info', component: UserInfo }
+    {
+      path: '/',
+      name: 'HelloWorld',
+      component: HelloWorld
+    }
   ]
 })
